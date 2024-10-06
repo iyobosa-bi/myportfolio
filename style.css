@@ -31,6 +31,13 @@ body{
 	
 }
 
+.navbar img{
+	position:relative;
+	right:140px;
+	z-index:-1;
+
+}
+
 .menu{
 	display:flex;
 	align-items:center;
@@ -48,11 +55,12 @@ body{
 }
 
 .menu li a:hover{
-	color:white;
-	font-size:15px;
+	color:black;
+	font-size:17px;
 	cursor:pointer;
 	border-bottom:2px solid #DA7C25;
 	border-width:1px;
+	
 	
 	
 }
@@ -85,6 +93,11 @@ body{
 	font-size:80px;
 	font-weight:500;
 	
+}
+
+.description img{
+	border-radius:50%;
+	border:3px solid white;
 }
 
 .description p {
@@ -181,6 +194,10 @@ body{
 	width:88.4%;
 	
 	
+}
+
+.mainleft img{
+	border:3px solid white;
 }
 
 
