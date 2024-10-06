@@ -65,14 +65,18 @@ body{
 	
 }
 
-.connectbtn{
+
+.connectbtn	a{
 	cursor:pointer;
 	background:linear-gradient(250deg,#DA7C25,#B923E1);
-	padding:2px 20px;
+	padding:10px 20px;
 	font-size:13px;
 	color:white;
 	border-radius:2px;
 	text-align:center;
+	text-decoration:none;
+	
+	
 		
 }
 
